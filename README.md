@@ -3,7 +3,7 @@
 **HermesESP** é um pager hospitalar que funciona com o [HermesAPI](https://github.com/CAIOMSa/ChallangeSabaraHermes)
 
 ---
-
+Feito por: Caio Martinez, Estefany Caetano, Guilherme Leite, José Claudio, Wesley Santos
 ## 📌 Funcionalidades principais
 
 - 🩺 Comunicar Indicar a onde o paciente tem que ir 
