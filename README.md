@@ -15,6 +15,8 @@
 
 ![HermesESP](https://github.com/user-attachments/assets/fbcffac9-f279-4ac1-a647-3a91d06f5a50)
 
+![image](https://github.com/user-attachments/assets/28b391fd-9377-4d7a-a66e-0e1643fc7fc1)
+
 
 ## ⚙️ Requisitos e Instalação
 
