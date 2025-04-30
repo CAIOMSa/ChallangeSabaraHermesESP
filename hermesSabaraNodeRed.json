@@ -1,0 +1,140 @@
+[
+    {
+        "id": "312b40378d9a0c4d",
+        "type": "tab",
+        "label": "Flow 1",
+        "disabled": false,
+        "info": "",
+        "env": []
+    },
+    {
+        "id": "eb921a6da71d1966",
+        "type": "json",
+        "z": "312b40378d9a0c4d",
+        "name": "",
+        "property": "payload",
+        "action": "",
+        "pretty": false,
+        "x": 470,
+        "y": 220,
+        "wires": [
+            [
+                "4242610a1c5c31c7"
+            ]
+        ]
+    },
+    {
+        "id": "1e511cea8f2cec1c",
+        "type": "mqtt in",
+        "z": "312b40378d9a0c4d",
+        "name": "",
+        "topic": "fiap/1esps/Hermes/sender",
+        "qos": "2",
+        "datatype": "auto-detect",
+        "broker": "c08e2a824f0b8f74",
+        "nl": false,
+        "rap": true,
+        "rh": 0,
+        "inputs": 0,
+        "x": 350,
+        "y": 320,
+        "wires": [
+            [
+                "d62b4688fbdbf596"
+            ]
+        ]
+    },
+    {
+        "id": "edaedc2706b6796f",
+        "type": "serial in",
+        "z": "312b40378d9a0c4d",
+        "name": "",
+        "serial": "dac61dc566c62994",
+        "x": 270,
+        "y": 240,
+        "wires": [
+            [
+                "eb921a6da71d1966"
+            ]
+        ]
+    },
+    {
+        "id": "d62b4688fbdbf596",
+        "type": "serial out",
+        "z": "312b40378d9a0c4d",
+        "name": "",
+        "serial": "dac61dc566c62994",
+        "x": 670,
+        "y": 300,
+        "wires": []
+    },
+    {
+        "id": "4242610a1c5c31c7",
+        "type": "mqtt out",
+        "z": "312b40378d9a0c4d",
+        "name": "",
+        "topic": "fiap/1esps/Hermes/receiver",
+        "qos": "",
+        "retain": "",
+        "respTopic": "",
+        "contentType": "",
+        "userProps": "",
+        "correl": "",
+        "expiry": "",
+        "broker": "c08e2a824f0b8f74",
+        "x": 720,
+        "y": 200,
+        "wires": []
+    },
+    {
+        "id": "c08e2a824f0b8f74",
+        "type": "mqtt-broker",
+        "name": "",
+        "broker": "test.mosquitto.org",
+        "port": "1883",
+        "clientid": "",
+        "autoConnect": true,
+        "usetls": false,
+        "protocolVersion": "4",
+        "keepalive": "60",
+        "cleansession": true,
+        "autoUnsubscribe": true,
+        "birthTopic": "",
+        "birthQos": "0",
+        "birthRetain": "false",
+        "birthPayload": "",
+        "birthMsg": {},
+        "closeTopic": "",
+        "closeQos": "0",
+        "closeRetain": "false",
+        "closePayload": "",
+        "closeMsg": {},
+        "willTopic": "",
+        "willQos": "0",
+        "willRetain": "false",
+        "willPayload": "",
+        "willMsg": {},
+        "userProps": "",
+        "sessionExpiry": ""
+    },
+    {
+        "id": "dac61dc566c62994",
+        "type": "serial-port",
+        "name": "",
+        "serialport": "COM4",
+        "serialbaud": "115200",
+        "databits": "8",
+        "parity": "none",
+        "stopbits": "1",
+        "waitfor": "",
+        "dtr": "none",
+        "rts": "none",
+        "cts": "none",
+        "dsr": "none",
+        "newline": "\\n",
+        "bin": "false",
+        "out": "char",
+        "addchar": "",
+        "responsetimeout": "10000"
+    }
+]
