@@ -13,7 +13,8 @@ Feito por: Caio Martinez, Estefany Caetano, Guilherme Leite, José Claudio, Wesl
 
 ## 📊 Diagrama de Arquitetura
 
-![HermesESP](https://github.com/user-attachments/assets/fbcffac9-f279-4ac1-a647-3a91d06f5a50)
+![HermesESP](https://github.com/user-attachments/assets/fb0ea322-b269-42dd-b60c-2f8f351734c5)
+
 
 ![image](https://github.com/user-attachments/assets/28b391fd-9377-4d7a-a66e-0e1643fc7fc1)
 
