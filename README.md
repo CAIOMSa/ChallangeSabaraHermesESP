@@ -18,7 +18,7 @@
 
 ## ⚙️ Requisitos e Instalação
 
-###**Node ReD**
+### **Node ReD**
 
 ### 📦 Instalação dos pacotes
 ### 📦 Pacote ESP
@@ -27,9 +27,9 @@
 ### 📦 Biblioteca: Adafruit GFX Library
 
 ## Fisicamente:
-### ESP 32 
-### OLED
-### Push Button 
+### - ESP 32 
+### - OLED
+### - Push Button 
 
 ## 📡 API
 [HermesAPI](https://github.com/CAIOMSa/ChallangeSabaraHermes)
