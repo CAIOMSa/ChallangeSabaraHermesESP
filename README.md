@@ -34,8 +34,8 @@
 ## MQTT:
 🚀 Executar o programa
 #### fiap/1esps/Hermes/sender:
-**l** (para iniciar as chamadas da api)
-**t** (para testar)
+- **l** (para iniciar as chamadas da api)
+- **t** (para testar)
 #### fiap/1esps/Hermes/receiver (para receber qualquer erro ou serial da api)
 ## 📡 API
 [HermesAPI](https://github.com/CAIOMSa/ChallangeSabaraHermes)
